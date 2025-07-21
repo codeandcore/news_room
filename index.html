@@ -18,10 +18,11 @@
     <meta property="og:image" content="images/screenshot.png" />
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
     <link rel="mask-icon" href="images/site/favicon.ico" color="white" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Gentium+Basic|Playfair+Display+SC"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
-      type="text/css" 
     />
     <link href="css/screen.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
@@ -29,14 +30,52 @@
   </head>
   <body>
     <!-- FULL WRAPPER-->
-    <div id="full_wrapper">
-      <!-- HEADER -->
-      <header></header>
-      <!---->
+    <div id="full_wrapper">      
+      <header>
+        <div class="wrapper header_wrapper">
+            <div class="left_nav">
+                <a href="/" class="head_logo">
+                    <img src="images/site/logo.png" alt="">
+                </a>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">All News</a></li>
+                            <li><a href="/">Crime & Security</a></li>
+                            <li><a href="/">Politics</a></li>
+                            <li><a href="/">Sports</a></li>
+                            <li><a href="/">Oil & Gas</a></li>
+                            <li><a href="/">Business</a></li>
+                            <li><a href="/">Education</a></li>
+                            <li class="sub_menu"><a href="/">More <span class="drp_menu">+</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="right_nav">
+                <div class="search_wrap">
+                    <span class="search_open">
+                        <img src="images/site/search.svg" alt="">
+                    </span>
+                </div>
+                <div class="current_date">
+                    <span class="icon"><img src="images/site/calendar.svg" alt=""></span>
+                    Monday, July 14, 2025
+                </div>
+                <div class="social_menu">
+                    <a href="/"><img src="images/site/facebook.svg" alt=""></a>
+                    <a href="/"><img src="images/site/instgram.svg" alt=""></a>
+                    <a href="/"><img src="images/site/tictock.svg" alt=""></a>
+                    <a href="/"><img src="images/site/twitter.svg" alt=""></a>
+                    <a href="/"><img src="images/site/youtube.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+      </header>
       <div class=""></div>
       <div class="push"><!-- --></div>
     </div>
-    <!-- FOOTER -->
     <footer></footer>
     <script src="js/script.js"></script>
   </body>
