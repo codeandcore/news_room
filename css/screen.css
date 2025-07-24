@@ -870,13 +870,6 @@ body.menu-open .navbar-toggler span:last-child {
    opacity: 0.7;
 }
 
-/* Header End*/
-
-
-.main {
-   margin-top: 149px;
-}
-
 /* home slider  */
 .newsswiper {
    width: 100%;
@@ -1127,7 +1120,7 @@ body.menu-open .navbar-toggler span:last-child {
    font-weight: bold;
    color: var(--white);
    padding: 15px 17px;
-   background-color: var(--primary-color);
+   background-color: var(--primary);
    display: block;
 }
 
@@ -1135,6 +1128,7 @@ body.menu-open .navbar-toggler span:last-child {
    color: var(--white);
    font-weight: bold;
    font-size: 44px;
+   margin-bottom: 0;
 }
 
 .advertise_container .ads_infoBox p {

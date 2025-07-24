@@ -2,103 +2,168 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=yes"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes"
     />
     <meta http-equiv="x-ua-compatible" content="IE=Edge" />
-    <title>News Room</title>
-    <meta name="description" content="Page Description" />
-    <!-- Chrome, Firefox OS, Opera and Vivaldi -->
-    <meta name="theme-color" content="#00434e" />
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#00434e" />
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#00434e" />
+    <meta name="theme-color" content="#091842" />
+    <meta name="msapplication-navbutton-color" content="#091842" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#091842" />
+    <meta name="description" content="News Room" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="News Room" />
+    <meta property="og:description" content="News Room" />
+    <meta property="og:url" content="Site url" />
+    <meta property="og:site_name" content="News Room" />
     <meta property="og:image" content="images/screenshot.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="News Room" />
+    <meta name="twitter:site" content="News Room" />
+    <meta name="twitter:description" content="News Room" />
+    <meta name="twitter:title" content="News Room" />
+    <meta name="twitter:image" content="images/screenshot.png" />
+    <meta name="pinterest-rich-pin" content="IDC-Card" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home Page - News Room" />
+    <meta property="og:url" content="Site url" />
+
+    <title>News Room</title>
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
-    <link rel="mask-icon" href="images/site/favicon.ico" color="white" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="mask-icon" href="images/favicon.ico" color="white" />
+
+    <link href="font/stylesheet.css" rel="stylesheet" />
+    <link href="css/swiper-bundle.min.css" rel="stylesheet" />
     <link href="css/screen.css" rel="stylesheet" />
+    <link href="css/dv.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
     <script src="js/jquery.min.js"></script>
   </head>
   <body>
     <!-- FULL WRAPPER-->
     <div id="full_wrapper">
-      <header id="mainHeader">
-        <div class="wrapper header_wrapper">
-          <div class="left_nav">
-            <a href="/" class="head_logo">
-              <img src="images/site/logo.png" alt="" />
-            </a>
-            <div class="menu">
-              <nav>
-                <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/">All News</a></li>
-                  <li><a href="/">Crime & Security</a></li>
-                  <li><a href="/">Politics</a></li>
-                  <li><a href="/">Sports</a></li>
-                  <li><a href="/">Oil & Gas</a></li>
-                  <li><a href="/">Business</a></li>
-                  <li><a href="/">Education</a></li>
-                  <li class="sub_menu">
-                    <a href="/">More <span class="drp_menu">+</span></a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <div class="right_nav">
-            <div class="search_wrap">
-              <span class="search_open">
-                <img src="images/site/search.svg" alt="" />
-              </span>
-            </div>
-            <div class="current_date">
-              <span class="icon"
-                ><img src="images/site/calendar.svg" alt=""
-              /></span>
-              Monday, July 14, 2025
-            </div>
-            <div class="social_menu">
-              <a href="https://www.facebook.com/newsroomgy"
-                ><img src="images/site/facebook.svg" alt=""
-              /></a>
-              <a href="https://www.instagram.com/newsroomguyana/#"
-                ><img src="images/site/instgram.svg" alt=""
-              /></a>
-              <a href="https://www.tiktok.com/@newsroomgy"
-                ><img src="images/site/tictock.svg" alt=""
-              /></a>
-              <a href="https://x.com/newsroomgy"
-                ><img src="images/site/twitter.svg" alt=""
-              /></a>
-              <a href="https://www.youtube.com/@NewsRoomGuyana"
-                ><img src="images/site/youtube.svg" alt=""
-              /></a>
-            </div>
-          </div>
+      <!-- Header Start -->
+    <header class="header-main">
+      <div class="container large d-flex align-items-center">
+        <button class="navbar-toggler">
+          <span class="navbar-icon"></span>
+          <span class="navbar-icon"></span>
+          <span class="navbar-icon"></span>
+        </button>
+        <div class="logo-main">
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="News Room Logo" />
+          </a>
         </div>
-      </header>
+        <div class="header-menu">
+          <div
+            class="current-date d-flex align-items-center justify-content-end"
+          >
+            <span class="icon"><img src="images/calendar.svg" alt="" /></span>
+            Monday, July 14, 2025
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">All News</a></li>
+              <li><a href="#">Crime & Security</a></li>
+              <li><a href="#">Politics</a></li>
+              <li><a href="#">Sports</a></li>
+              <li><a href="#">Oil & Gas</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Education</a></li>
+              <li class="menu-item-has-children">
+                <a href="#">More</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="social-menu d-flex">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/newsroomgy/"
+                ><img src="images/facebook-black.svg" alt="Facebook Icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/newsroomguyana/"
+                ><img src="images/instgram-black.svg" alt="Instgram Icon"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.tiktok.com/@newsroomgy/"
+                ><img src="images/tiktok-black.svg" alt="Tiktok Icon"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://x.com/newsroomgy/"
+                ><img src="images/twitter-black.svg" alt="Twitter Icon"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.youtube.com/@NewsRoomGuyana"
+                ><img src="images/youtube-black.svg" alt="Toutube Icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="right-nav">
+          <div class="search-wrap">
+            <span class="search-open">
+              <img src="images/search.svg" alt="" />
+            </span>
+          </div>
+          <div class="current-date d-flex align-items-center">
+            <span class="icon"><img src="images/calendar.svg" alt="" /></span>
+            Monday, July 14, 2025
+          </div>
+          <ul class="social-menu d-flex">
+            <li>
+              <a target="_blank" href="https://www.facebook.com/newsroomgy/"
+                ><img src="images/facebook-black.svg" alt="Facebook Icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/newsroomguyana/"
+                ><img src="images/instgram-black.svg" alt="Instgram Icon"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.tiktok.com/@newsroomgy/"
+                ><img src="images/tiktok-black.svg" alt="Tiktok Icon"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://x.com/newsroomgy/"
+                ><img src="images/twitter-black.svg" alt="Twitter Icon"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.youtube.com/@NewsRoomGuyana"
+                ><img src="images/youtube-black.svg" alt="Toutube Icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
       <div class="main">
-        <div class="wrapper">
+        <div class="container">
           <div class="advertise_container">
             <div class="ads_infoBox">
               <div class="top_section">
                 <div class="logo">
-                  <img src="images/site/logo.png" alt="" />
+                  <img src="images/logo_ads.png" alt="" />
                 </div>
                 <div class="reader_numbers">
                   <div class="num_box"><span>2M+ Monthly Readers</span></div>
@@ -122,20 +187,20 @@
                 placements.
               </h6>
               <div class="ads_placement">
-                <img src="images/site/ads1.jpg" alt="" />
+                <img src="images/ads1.jpg" alt="" />
               </div>
             </div>
             <div class="ads_show">
               <h4>Front Page Ad Map</h4>
               <div class="ads_boxs">
                 <div class="ads_box col_3">
-                  <img src="images/site/fads1.jpg" alt="" />
+                  <img src="images/fads1.jpg" alt="" />
                 </div>
                 <div class="ads_box col_3">
-                  <img src="images/site/fads2.jpg" alt="" />
+                  <img src="images/fads2.jpg" alt="" />
                 </div>
                 <div class="ads_box col_3">
-                  <img src="images/site/fads3.jpg" alt="" />
+                  <img src="images/fads3.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -143,16 +208,16 @@
               <h4>Inside Page Ad Map</h4>
               <div class="ads_boxs">
                 <div class="ads_box col_3">
-                  <img src="images/site/inside1.jpg" alt="" />
+                  <img src="images/inside1.jpg" alt="" />
                 </div>
                 <div class="ads_box col_2">
-                  <img src="images/site/inside2.jpg" alt="" />
+                  <img src="images/inside2.jpg" alt="" />
                 </div>
                 <div class="ads_box col_2">
-                  <img src="images/site/inside3.jpg" alt="" />
+                  <img src="images/inside3.jpg" alt="" />
                 </div>
                 <div class="ads_box col_3">
-                  <img src="images/site/inside4.jpg" alt="" />
+                  <img src="images/inside4.jpg" alt="" />
                 </div>
               </div>
             </div>
