@@ -1087,10 +1087,6 @@ body.menu-open .navbar-toggler span:last-child {
 
 
 /* advertise_container */
-.advertise_container {
-   max-width: 1335px;
-}
-
 .advertise_container .ads_infoBox {
    background-color: #091941;
    padding: 26px 40px 40px 40px;
@@ -1975,3 +1971,150 @@ body.menu-open .navbar-toggler span:last-child {
 }
 
 /** Archive Page End **/
+.book_spot form#commentform {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.book_spot form#commentform .comment-form-input-wrap {
+   width: 48.5%;
+   margin-bottom: 30px;
+}
+
+.book_spot form#commentform .comment-form-input-wrap input,
+.book_spot form#commentform .comment-form-input-wrap select {
+   width: 100%;
+}
+
+.book_spot form#commentform .comment-form-textare-wrap {
+   width: 100%;
+   margin-bottom: 15px;
+}
+
+.book_spot .file_upload {
+   border: 1px solid rgba(9, 25, 65, 0.20);
+   background-color: #F9FBFF;
+   padding: 17px 20px;
+   color: rgba(9, 25, 65, 0.50);
+}
+
+.book_spot .file_upload input {
+   padding: 0;
+   border: 0;
+   width: auto !important;
+   max-width: 180px;
+   overflow: hidden !important;
+   text-align: center;
+   padding-left: 10px;
+}
+
+.book_spot .file_upload input[type="file" i]::-webkit-file-upload-button {
+   display: none;
+}
+
+.book_spot .file_upload {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+
+.book_spot .file_upload .icon_upload {
+   position: absolute;
+   right: 20px;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+}
+
+
+.faq_section {
+   padding-top: 47px;
+}
+
+.accordion .accordion-item {
+   padding: 30px 0;
+   border-bottom: 1px solid rgba(9, 25, 65, 0.20);
+}
+
+
+.accordion button {
+   position: relative;
+   display: block;
+   text-align: left;
+   width: 100%;
+   color: #091941;
+   font-size: 20px;
+   font-weight: 400;
+   border: none;
+   background: none;
+   outline: none;
+   padding: 0;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+   cursor: pointer;
+   color: var(--primary);
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+   cursor: pointer;
+   color: var(--primary);
+   border: 1px solid var(--primary);
+}
+
+.accordion button .accordion-title {
+   padding: 30px 0;
+}
+
+.accordion button .icon {
+   position: absolute;
+   top: 0px;
+   right: 0;
+   transition: 0.5s all ease;
+   -webkit-transition: 0.5s all ease;
+   -moz-transition: 0.5s all ease;
+   -o-transition: 0.5s all ease;
+}
+
+
+.accordion button[aria-expanded='true'] {
+   color: var(--primary);
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+   width: 0;
+}
+
+.accordion button[aria-expanded='true']+.accordion-content {
+   opacity: 1;
+   max-height: 9em;
+   transition: all 200ms linear;
+   will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+   opacity: 0;
+   max-height: 0;
+   overflow: hidden;
+   transition: opacity 200ms linear, max-height 200ms linear;
+   will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+   font-size: 16px;
+   font-weight: 300;
+   margin-top: 5px;
+   margin-bottom: 30px;
+}
+
+.accordion button[aria-expanded='true'] span.icon {
+   transform-origin: center center;
+   transform: rotate(-90deg);
+}
+
+.border_right {
+   border-right: 1px solid rgba(9, 25, 65, 0.50);
+}
