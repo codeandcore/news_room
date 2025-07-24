@@ -651,10 +651,12 @@ header .wrapper {
    animation-iteration-count: infinite;
    z-index: 999;
 }
-.btn-whatsapp-pulse svg{
+
+.btn-whatsapp-pulse svg {
    width: 35px;
    height: 35px;
 }
+
 @keyframes pulse {
    0% {
       box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
@@ -663,4 +665,115 @@ header .wrapper {
    80% {
       box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
    }
+}
+
+
+
+
+
+
+
+
+
+/* advertise_container */
+.advertise_container {
+   max-width: 1335px;
+}
+
+.advertise_container .ads_infoBox {
+   background-color: #091941;
+   padding: 26px 40px 40px 40px;
+   margin-bottom: 60px;
+}
+
+.advertise_container .ads_infoBox .top_section {
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+}
+
+.advertise_container .ads_infoBox .top_section .reader_numbers {
+   display: flex;
+   align-items: center;
+   margin-top: 14px;
+}
+
+.advertise_container .ads_infoBox .top_section .reader_numbers .num_box {
+   background: #F9FBFF;
+   background: linear-gradient(90deg, rgba(249, 251, 255, 0) 0%, rgba(249, 251, 255, 1) 51%, rgba(249, 251, 255, 0) 100%);
+   padding: 1.1px;
+}
+
+.advertise_container .ads_infoBox .top_section .reader_numbers .num_box span {
+   font-size: 18px;
+   font-weight: bold;
+   color: var(--white);
+   padding: 15px 17px;
+   background-color: var(--primary-color);
+   display: block;
+}
+
+.advertise_container .ads_infoBox h2 {
+   color: var(--white);
+   font-weight: bold;
+   font-size: 44px;
+}
+
+.advertise_container .ads_infoBox p {
+   color: var(--white);
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.6;
+   max-width: 745px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+
+.advertise_container .ads_infoBox .btn_white {
+   background-color: var(--white);
+   font-weight: 500;
+   font-size: 16px;
+   display: inline-block;
+   vertical-align: middle;
+   padding: 14px 17px;
+}
+
+.ads_show {
+   margin-bottom: 60px;
+}
+
+.advertise_container h4 {
+   margin-bottom: 20px;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.ads_show h6 {
+   font-size: 20px;
+   line-height: 1.6;
+   margin-bottom: 20px;
+   font-weight: 500;
+}
+
+.ads_show .ads_boxs {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.ads_show .ads_boxs .ads_box.col_3 {
+   max-width: 31%;
+}
+
+.ads_show .ads_boxs .ads_box.col_2 {
+   max-width: 66%;
+}
+
+.ads_show .ads_boxs .ads_box {
+   margin-bottom: 60px;
+}
+
+.book_spot {
+   border-top: 1px solid rgba(9, 25, 65,0.5);
+   padding-top: 25px;
 }
