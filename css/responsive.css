@@ -27,6 +27,16 @@
     h3, .h3 {
         font-size: 24px;
     }
+    .get_appBox .left_text{padding: 40px;}
+    .get_appBox .left_text h5{
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .get_appBox .right_img .mobile_img{
+        max-width: 480px;
+        margin: auto;
+    }
 }
 
 
@@ -117,6 +127,18 @@
     .accordion button .icon {
         max-width: 15px;
     }
+    .get_appBox .left_text{
+        padding: 30px;
+    }
+    .get_appBox .left_text h5 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .get_appBox .right_img .mobile_img{
+        max-width: 420px;
+    }
+
 }
 
 @media (min-width:992px){
@@ -125,7 +147,14 @@
     .d-md-flex{display: flex;}
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .get_appBox .right_img,.get_appBox .left_text{
+        width: 100%;
+    }
+    .get_appBox .right_img .mobile_img{
+        position: relative;
+    }
+}
 
 @media (min-width: 768px) {
     .d-sm-block{display: block;}
@@ -222,7 +251,28 @@
         line-height: 1.5;
     }
     
-    
+    .get_appBox{
+        margin: 20px 0px;
+    }
+    .get_appBox .left_text{
+        padding: 15px;
+    }
+    .get_appBox .left_text h5 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .get_appBox .left_text .app a img {
+        max-width: 90px;
+    }
+    .get_appBox .left_text .slit_line{
+        min-height: 36px;
+        margin: 0px 8px;
+    }
+    .get_appBox .right_img .mobile_img {
+        max-width: 220px;
+        display: block;
+    }
+
 }
 
 @media (max-width: 575px) {}
