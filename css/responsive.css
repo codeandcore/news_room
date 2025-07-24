@@ -17,6 +17,16 @@
     .col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1,.col{padding-right:15px;padding-left:15px;}
 
     .header-main .logo-main{max-width: 50px;}
+    .advertise_container .ads_infoBox h2{font-size: 38px;}
+    .advertise_container .ads_infoBox .top_section .reader_numbers .num_box span{font-size: 14px;padding: 10px 12px;}
+    .advertise_container .ads_infoBox p{font-size: 18px;}
+    .advertise_container .ads_infoBox .btn_white{padding: 10px 14px;}
+    .advertise_container h4{font-size: 26px;}
+    .ads_show h6{font-size: 16px;}
+    .book_spot .file_upload input{max-width: 100px;}
+    h3, .h3 {
+        font-size: 24px;
+    }
 }
 
 
@@ -55,6 +65,58 @@
     .header-main .right-nav .search-wrap{margin-right: 0;}
     .header-main .right-nav .current-date{display: none;}
     .header-main .right-nav .social-menu{display: none;}
+    .advertise_container .ads_infoBox{padding: 16px 30px 30px 30px;}
+    .advertise_container .ads_infoBox .top_section .reader_numbers .num_box span {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .advertise_container .ads_infoBox h2{
+        font-size: 30px;
+    }
+    .advertise_container .ads_infoBox p {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+    .advertise_container .ads_infoBox .btn_white {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .advertise_container .ads_infoBox{
+        margin-bottom: 35px;
+    }
+    .advertise_container h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .ads_show h6 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .advertise_container h4 {
+        font-size: 22px;
+    }
+    .ads_show {
+        margin-bottom: 20px;
+    }
+    .book_spot form#commentform .comment-form-input-wrap {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .accordion button .accordion-title{
+        padding: 0px;
+    }
+    .accordion .accordion-item {
+        padding: 20px 0;
+    }
+    .accordion button{
+        font-size: 18px;
+    }
+    .accordion .accordion-content p {
+        font-size: 14px;
+    }
+    .accordion button .icon {
+        max-width: 15px;
+    }
 }
 
 @media (min-width:992px){
@@ -98,6 +160,69 @@
     .banner-section .trending-now .trending-list li{font-size: 14px; font-weight: 400;}
 
     .news-list-box .news-list-meta{font-size: 12px;}
+
+    .border_right{border-right: 0px;}
+    .container .container{padding: 0px;}
+
+    .advertise_container .ads_infoBox {
+        padding: 15px;
+    }
+    .advertise_container .ads_infoBox .top_section{
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+    .advertise_container .ads_infoBox .top_section .reader_numbers{
+        width: 100%;
+    }
+    .advertise_container .ads_infoBox .top_section .reader_numbers .num_box span{
+        text-align: center;
+        line-height: normal;
+    }
+    .advertise_container .ads_infoBox h2 {
+        font-size: 22px;
+    }
+    .advertise_container .ads_infoBox p{
+        font-size: 14px;
+    }
+    .advertise_container .ads_infoBox .btn_white {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .ads_show .ads_boxs .ads_box {
+        margin-bottom: 20px;
+    }
+    .ads_show .ads_boxs .ads_box.col_3 {
+        max-width: 100%;
+    }
+    .ads_show .ads_boxs .ads_box.col_2 {
+        max-width: 100%;
+    }
+    .ads_show .ads_boxs .ads_box {
+        margin-bottom: 10px;
+    }
+    textarea,input, select{
+        padding: 10px ;
+    }
+    .book_spot .file_upload{
+        padding: 10px;
+    }
+    .book_spot .file_upload .icon_upload{
+        right: 10px;
+        max-width: 22px;
+    }
+    .accordion button {
+        font-size: 16px;
+        padding-right: 15px;
+    }
+    .accordion .accordion-item {
+        padding: 15px 0;
+    }
+    .accordion .accordion-content p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    
 }
 
 @media (max-width: 575px) {}
