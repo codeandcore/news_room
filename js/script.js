@@ -26,6 +26,24 @@ $(document).ready(function () {
 	}
 	/* Menu Toggle Js */
 
+	/* Search Popup Toggle Js */
+	if ($('.search-popup').length > 0) {
+		jQuery(".header-main .right-nav .search-wrap .search-open").click(function(e){
+			e.stopPropagation();
+			jQuery(".search-popup").fadeToggle("100");
+		});
+		jQuery(".search-popup .search-inner .serach-close").click(function(e){
+			e.stopPropagation();
+			jQuery(".search-popup").fadeToggle("100");
+		});
+		jQuery("html").click(function(e){
+			if (jQuery(e.target).closest(".search-popup").length <= 0) {
+				jQuery(".search-popup").fadeOut("100");
+			}
+		})
+	}
+	/* Search Popup Toggle Js */
+
 	/* Hero Banner Slider Js Start */
 	if ($('.banner-section').length > 0) {
 		const progressFill = document.querySelector(".progress-fill");
