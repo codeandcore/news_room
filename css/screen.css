@@ -425,17 +425,17 @@ body.menu-open .navbar-toggler span:last-child{transform:rotate(-45deg) translat
 
 
 /* Advertise container Start */
-.advertise_container .ads_infoBox{background-color:#091941;padding:26px 40px 40px 40px;margin-bottom:60px;}
+.advertise_container .ads_infoBox{background-color:#091941;padding:26px 40px 40px 40px;margin-bottom:60px;background-image: url(../images/back_pattren.svg);
+background-repeat: no-repeat;background-position: right bottom;}
 .advertise_container .ads_infoBox .top_section{display:flex;align-items:start;justify-content:space-between;}
 .advertise_container .ads_infoBox .top_section .reader_numbers{display:flex;align-items:center;margin-top:14px;}
-.advertise_container .ads_infoBox .top_section .reader_numbers .num_box{background:#F9FBFF;background:linear-gradient(90deg,rgba(249,251,255,0) 0%,rgba(249,251,255,1) 51%,rgba(249,251,255,0) 100%);padding:1.1px;}
-.advertise_container .ads_infoBox .top_section .reader_numbers .num_box span{font-size:18px;font-weight:bold;color:var(--white);padding:15px 17px;background-color:var(--primary);display:block;}
-.advertise_container .ads_infoBox h2{color:var(--white);font-weight:bold;font-size:44px;margin-bottom:0;}
+.advertise_container .ads_infoBox .top_section .reader_numbers .num_box{background:#F9FBFF;background:linear-gradient(90deg,rgba(249,251,255,0) 0%,rgba(249,251,255,1) 51%,rgba(249,251,255,0) 100%);padding:1.1px;border-radius: 220px;}
+.advertise_container .ads_infoBox .top_section .reader_numbers .num_box span{font-size:18px;font-weight:bold;color:var(--white);padding:15px 17px;background-color:var(--primary);display:block;border-radius: 220px;}
+.advertise_container .ads_infoBox h1{color:var(--white);font-weight:bold;font-size:44px;margin-bottom:0;}
 .advertise_container .ads_infoBox p{color:var(--white);font-weight:400;font-size:20px;line-height:1.6;max-width:745px;padding-top:10px;padding-bottom:15px;}
-.advertise_container .ads_infoBox .btn_white{background-color:var(--white);font-weight:500;font-size:16px;display:inline-block;vertical-align:middle;padding:14px 17px;}
+.btn_white{background-color:var(--white);font-weight:500;font-size:16px;display:inline-block;vertical-align:middle;padding:14px 17px;border: 1px solid rgba(9,25,65,0.20);}
 .ads_show{margin-bottom:60px;}
-.advertise_container h4{margin-bottom:20px;font-weight:bold;font-size:30px;}
-.ads_show h6{font-size:20px;line-height:1.6;margin-bottom:20px;font-weight:500;}
+.ads_show h5{font-weight:500;}
 .ads_show .ads_boxs{display:flex;justify-content:space-between;flex-wrap:wrap;}
 .ads_show .ads_boxs .ads_box.col_3{max-width:31%;}
 .ads_show .ads_boxs .ads_box.col_2{max-width:66%;}
@@ -466,7 +466,7 @@ body.menu-open .navbar-toggler span:last-child{transform:rotate(-45deg) translat
 .border_right{border-right:1px solid rgba(9,25,65,0.50);}
 .get_appBox{background-color:var(--primary);display:flex;flex-wrap:wrap;margin:60px 0px;}
 .get_appBox .left_text{width:50%;padding:60px;}
-.get_appBox .left_text h5{color:var(--white);font-size:30px;font-weight:bold;margin-top:50px;margin-bottom:21px;}
+.get_appBox .left_text h1{color:var(--white);font-size:30px;font-weight:bold;margin-top:50px;margin-bottom:21px;}
 .get_appBox .left_text p{color:var(--white);max-width:660px;}
 .get_appBox .left_text h6{color:var(--white);}
 .get_appBox .left_text .slit_line{background-color:var(--white);width:1px;height:100%;margin:0px 15px;display:inline-block;vertical-align:top;min-height:65px;}
